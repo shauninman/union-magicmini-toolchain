@@ -18,3 +18,7 @@ See [setup-env.sh](./support/setup-env.sh) for some useful vars for compiling th
 ## Docker for Mac
 
 Docker for Mac has a memory limit that can make the toolchain build fail. Follow [these instructions](https://docs.docker.com/docker-for-mac/) to increase the memory limit.
+
+## Caveat
+
+This toolchain expects to be run on an Arm/aarch64/arm64/Apple Silicon host and will not work as-is on Intel/x86_64.
